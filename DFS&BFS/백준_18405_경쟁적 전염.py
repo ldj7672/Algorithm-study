@@ -32,8 +32,6 @@ S초 뒤에 (X,Y)에 존재하는 바이러스의 종류를 출력한다. 만약
 
 from collections import deque
 
-from grpc import GenericRpcHandler
-
 n, k = map(int,input().split())
 
 graph = [] # 전체 보드 정보를 담는 리스트
